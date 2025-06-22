@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, FlatList, Image, StyleSheet, ActivityIndicator, TextInput, TouchableOpacity } from 'react-native';
 import { Snackbar } from 'react-native-paper';
 
-const SEARCH_API = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=6f102c62f41998d151e5a1b48713cf13&format=json&nojsoncallback=1&extras=url_s&per_page=20';
+const SEARCH_API = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=APIKEY&format=json&nojsoncallback=1&extras=url_s&per_page=20';
 
 export default function SearchScreen() {
     const [searchText, setSearchText] = useState('');
