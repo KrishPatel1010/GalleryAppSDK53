@@ -3,7 +3,7 @@ import { View, Text, FlatList, Image, StyleSheet, ActivityIndicator, Alert, Refr
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Snackbar } from 'react-native-paper';
 
-const FLICKR_API = 'https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&per_page=20&api_key=6f102c62f41998d151e5a1b48713cf13&format=json&nojsoncallback=1&extras=url_s';
+const FLICKR_API = 'https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&per_page=20&api_key=APIKEY&format=json&nojsoncallback=1&extras=url_s';
 const CACHE_KEY = 'FLICKR_RECENT_IMAGES';
 
 export default function HomeScreen() {
